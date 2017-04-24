@@ -1,0 +1,88 @@
+<head>  <link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">Home</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="about.html">About</a>
+                  </li>\
+                  <li class="page-scroll">
+                      <a href="faq.html">FAQ</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="donate.html">Donate</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+  <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
+                <img src="img/slideshow/01.jpg" style="height:500px;" alt="First slide">
+                <div style="display: table; height: 500px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <h3 style="vertical-align: middle;">
+                      Donate to help disabled children around the world.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slideshow/02.jpg" style="height: 500px; align: right;" alt="Second slide">
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+    </body>
