@@ -50,7 +50,9 @@ h6 {
   position: relative;
 }
 
-h1.special {top: 50px; letter-spacing: 5px; line-height: 170%;}
+div.wording {background-color: #B3FFFF;}
+
+div.wording h1.special {top: 5px; letter-spacing: 5px; line-height: 170%;}
 
 .navbar-custom {
   background: #2C3E50;

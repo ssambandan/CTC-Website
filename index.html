@@ -55,15 +55,29 @@
         <!-- /.container-fluid -->
     </nav>
   <div id="mainimg" style="z-index: 3">
-    <img src="photos/Annual Day 3.jpg" style="width: 100%; margin:0px; filter: brightness(70%);">
+    <img src="photos/Annual Day 3.jpg" style="width: 100%; margin:0px; filter: brightness(90%);">
   </div>
   <br>
-  <br>
-  <div>
+  <div class="wording">
   <h1 class="special"> Rehabilitating Mentally <br> and/or Physically Challenged <br> Children in India </h1>
-  </div>
 
-  <div class="swiper-container" id="slider" style="margin-top:5%;">
+  <canvas id="myCanvas" width="800" height="50"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(300, 25);
+      context.lineTo(500, 25);
+      context.lineWidth = 5;
+
+      // set line color
+      context.strokeStyle = '#ff0000';
+      context.stroke();
+    </script>
+</div>
+
+  <div class="swiper-container" id="slider" style="margin-top:0%;">
       <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="clearfix float-my-children" style="max-width: 95%; margin: 0 auto;">
